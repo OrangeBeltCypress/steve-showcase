@@ -1,0 +1,48 @@
+body, html{
+    margin:0;
+    padding:0; 
+background-color: green; 
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header{
+    min-height:9vmin; 
+    background-color: black;
+    display: flex;
+}
+.projects, .about{
+    margin-right: 10vmin;
+    text-decoration: none;
+}
+
+a{
+    font-size: 3vmin; 
+}
+.links{
+    width:100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo{
+    max-height:10vmin; 
+    margin:.5vmin; 
+}
+
+.words{
+    margin-left: 10vmin;
+}
+.box{
+    display: flex;
+    height:100vh; 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10vw;
+    margin-left:10vw; 
+}
+
+img{
+    max-width:60%;
+    max-height:50vmin;  
+}
